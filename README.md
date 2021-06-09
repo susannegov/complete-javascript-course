@@ -5,7 +5,7 @@ The course has been updated a couple months ago so going through it.
 
 The starter folder is my code. Final is the instructor's answers to practice problems.
 
-Progress: 1/18
+Progress: 2/18
 
 ---------------------------------------------------------------------------
 # Course Material and FAQ for my Complete JavaScript Course
