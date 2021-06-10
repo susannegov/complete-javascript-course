@@ -100,6 +100,8 @@ if (dolphinScore > koalaScore && dolphinScore >= 100) {
 
 /* Switch statement example
 
+Switches are like if statements
+
 const day = 'monday';
 
 switch (day) {

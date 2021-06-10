@@ -1,13 +1,15 @@
 # About this
+
 Going through the course as a refresher. I last completed the course January 2020.
 
 The course has been updated a couple months ago so going through it.
 
 The starter folder is my code. Final is the instructor's answers to practice problems.
 
-Progress: 2/18
+Progress: 4/18
 
----------------------------------------------------------------------------
+---
+
 # Course Material and FAQ for my Complete JavaScript Course
 
 This repo contains starter files and final code for all sections and projects contained in the course.
