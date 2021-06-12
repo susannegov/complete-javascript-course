@@ -33,8 +33,8 @@ document.querySelector('.check').addEventListener('click', function () {
     let end = score > 1 ? 'win' : 'lose';
     if (guess === secretNumber) {
       document.querySelector('.number').textContent = secretNumber;
-      document.querySelector('body').style.backgroundColor = '#60b347';
       document.querySelector('.number').style.width = '30rem';
+      document.querySelector('body').style.backgroundColor = '#60b347';
       highscore = Math.max(score, highscore);
       document.querySelector('.highscore').textContent = highscore;
     }
