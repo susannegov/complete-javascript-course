@@ -6,10 +6,11 @@ The course has been updated a couple months ago so going through it.
 
 The starter folder is my code. Final is the instructor's answers to practice problems.
 
-Progress: 6/18
+Progress: 7/18
 
 05 - Guess My Number
 06 - Modal
+07- Pig Game
 
 ---
 
