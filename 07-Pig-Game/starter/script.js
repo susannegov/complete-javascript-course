@@ -1,22 +1,23 @@
 'use strict';
 
 // Set default game mode
+let scores, activePlayer, current, currentScore, playing, dice;
 
-let scores = [0, 0];
-let activePlayer = 0;
-let current = 0;
-let currentScore = 0;
-let playing = true;
-let dice = document.querySelector('.dice');
-dice.classList.add('hidden');
-document.querySelectorAll('.score')[0].textContent = 0;
-document.querySelectorAll('.score')[1].textContent = 0;
+const init = function () {
+  scores = [0, 0];
+  activePlayer = 0;
+  current = 0;
+  currentScore = 0;
+  playing = true;
+  dice = document.querySelector('.dice');
+  dice.classList.add('hidden');
+  document.querySelectorAll('.score')[0].textContent = 0;
+  document.querySelectorAll('.score')[1].textContent = 0;
+  document.querySelector(`.player--0`).classList.add('player--active');
+  document.querySelector(`.player--1`).classList.remove('player--active');
+};
 
-// do dice roll
-// gen random number
-// display roll
-// if 1 switch player
-// add role to current score
+init();
 
 // function to switch player
 const switchPlayer = function () {
@@ -73,17 +74,7 @@ document.querySelector('.btn--new').addEventListener('click', function () {
     .querySelector(`.player--${activePlayer}`)
     .classList.remove('player--winner');
   document.querySelector(`#current--${activePlayer}`).textContent = 0;
-  scores = [0, 0];
-  activePlayer = 0;
-  current = 0;
-  currentScore = 0;
-  playing = true;
-  dice = document.querySelector('.dice');
-  dice.classList.add('hidden');
-  document.querySelectorAll('.score')[0].textContent = 0;
-  document.querySelectorAll('.score')[1].textContent = 0;
-  document.querySelector(`.player--0`).classList.add('player--active');
-  document.querySelector(`.player--1`).classList.remove('player--active');
+  init();
 });
 
 // user reset game
