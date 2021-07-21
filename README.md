@@ -6,7 +6,8 @@ The course has been updated a couple months ago so going through it.
 
 The starter folder is my code. Final is the instructor's answers to practice problems.
 
-Progress: 7/18
+Progress: 8/18
+1-7/16
 
 05 - Guess My Number
 06 - Modal
